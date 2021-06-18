@@ -1,0 +1,18 @@
+.mainContainer{
+    display: grid;
+    gap: 2%;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.filmContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5%;
+    padding: 0 2%;
+    overflow-y: scroll;
+}
