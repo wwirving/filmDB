@@ -79,7 +79,7 @@ const FilmProvider = (props) => {
 
 
   const getFilm = () => {
-    const API = `http://www.omdbapi.com/?i=tt3896198&apikey=89ea01ae&s=${searchTerm}`
+    const API = `https://www.omdbapi.com/?i=tt3896198&apikey=89ea01ae&s=${searchTerm}`
 
     fetch(API).then((response) => {
       return response.json();
